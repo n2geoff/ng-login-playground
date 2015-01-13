@@ -1,0 +1,151 @@
+/* Space out content a bit */
+body {
+  /*padding-top: 20px;
+  padding-bottom: 20px;*/
+}
+
+/* Everything but the jumbotron gets side spacing for mobile first views */
+.header,
+.marketing,
+.footer {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+/* Custom page header */
+.header {
+  border-bottom: 1px solid #e5e5e5;
+}
+/* Make the masthead heading the same height as the navigation */
+.header h3 {
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: 40px;
+  padding-bottom: 19px;
+}
+
+/* Custom page footer */
+.footer {
+  padding-top: 19px;
+  color: #777;
+  border-top: 1px solid #e5e5e5;
+}
+
+/* Customize container */
+
+.container-narrow > hr {
+  margin: 30px 0;
+}
+
+/* Main marketing message and sign up button */
+.jumbotron {
+  text-align: center;
+}
+.jumbotron .btn {
+  font-size: 21px;
+  padding: 14px 24px;
+}
+
+/* Supporting marketing content */
+.marketing {
+  margin: 40px 0;
+}
+.marketing p + h4 {
+  margin-top: 28px;
+}
+
+/* custom theme */
+
+header {
+    min-height:130px;
+    margin-bottom:5px;
+}
+
+@media (min-width: 979px) {
+    #sidebar.affix-top {
+        position: static;
+    }
+
+    #sidebar.affix {
+        position: fixed;
+        top: 0;
+        width:21.2%;
+    }
+}
+
+.affix,.affix-top {
+    position:static;
+}
+
+/* theme */
+
+
+
+h3.highlight  {
+    padding-top:13px;
+    padding-bottom:14px;
+    border-bottom:2px solid #ececec;
+}
+
+.navbar {
+    background-color:#ff3333;
+    color:#ffffff;
+    border:0;
+    border-radius:0;
+}
+.navbar-nav > li > a {
+    color:#fff;
+    padding-left:20px;
+    padding-right:20px;
+    /*border-left:1px solid #ee3333;*/
+}
+.navbar-nav > li > a:hover, .navbar-nav > li > a:focus {
+    color:#666666;
+}
+.navbar-nav > li:last-child > a {
+    /*border-right:1px solid #ececec;*/
+}
+.navbar-nav > .active > a, .navbar-nav > .active > a:hover, .navbar-nav > .active > a:focus {
+    color: #ffffff;
+    background-color:transparent;
+}
+.navbar-nav > .open > a, .navbar-nav > .open > a:hover, .navbar-nav > .open > a:focus {
+    color: #f0f0f0;
+    background-color:transparent;
+    opacity:.9;
+    border-color:#ff3333;
+}
+
+.nav .open > a {
+    border-color:#777777;
+    border-width:0;
+}
+
+.dropdown-menu {
+    min-width: 250px;
+}
+
+.navbar-toggle {
+    color:#fff;
+    border-width:0;
+}
+
+.navbar-toggle:hover {
+    background-color:#fff;
+}
+
+.panel {
+    padding:27px;
+}
+
+/* end theme */
+
+/* Animations */
+
+.main-alert {
+    max-width: 400px;
+    margin: 0 auto;
+}
+.alert-hidden {
+    visibility:hidden;
+}
